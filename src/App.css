@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.info_container {
+  padding: 0 20px;
+}
+
+
+.addUser_input {
+  width: 30%;
+}
+
+
+/*Main*/
+.main_page {
+}
+/*Users*/
+
+.main_container {
+  display: flex;
+  /*justify-content: center;*/
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.users_container {
+  width: 50%;
+  border: black 1px solid;
+  min-height: 2000px;
+}
+
+.info_container {
+  width: 50%;
+  border: black 1px solid;
+  min-height: 2000px;
+
+}
+
+.avatar_img {
+  width: 100px;
+  height: 100px;
+}
+
+.user_container {
+  border: solid 1px grey;
+  margin: 10px 10px;
+  width: 70%;
+  cursor: pointer;
+}
+
+.user_container:hover {
+  background-color: #d2d2d2;
+}
+
+.user_name {
+  padding: 10px
+}
+
+.users_header {
+  padding-left: 200px;
+}
+
+.addUser_form {
+  padding: 20px;
+  border: 1px solid black;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.addUser_input {
+  width: 66%;
+  margin-bottom: 10px;
+}
+
+.addUser_label {
+  margin-bottom: 5px;
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+
+.addUser_submit {
+  margin-top: 10px;
+  width: 33%;
+}
+
+.selected_user {
+  background-color: #afafaf;
+}
